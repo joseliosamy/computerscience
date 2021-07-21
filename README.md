@@ -5,19 +5,19 @@
     <img src="#" alt="Logo" width="100%" height="100%">
   </a>
 
-  <h3 align="center">SeeClasses</h3>
+  <h3 align="center">ComputerScience</h3>
 
   <p align="center">
-    Todas aulas da turma 20.2 centralizadas em um único lugar.
+    Um lugar novo para a ciência da computação.
     <br />
-    <a href="https://seeclasses.vercel.app/materias"><strong>Explore »</strong></a>
+    <a href=""><strong>Explore »</strong></a>
     <br />
     <br />
-    <a href="https://seeclasses.vercel.app/">Acessar</a>
+    <a href="">Acessar</a>
     ·
-    <a href="https://github.com/joseliosamy/seeclasses/issues/new">Reportar Bug</a>
+    <a href="https://github.com/joseliosamy/computerscience/issues/new">Reportar Bug</a>
     ·
-    <a href="https://github.com/joseliosamy/seeclasses/issues/new">Pedir Melhoria</a>
+    <a href="https://github.com/joseliosamy/computerscience/issues/new">Pedir Melhoria</a>
   </p>
 </p>
 
