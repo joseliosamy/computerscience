@@ -1,0 +1,23 @@
+header{
+  width: 95%;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+header > a{
+  font-size: 1.3rem;
+}
+header > a span{
+  font-weight: 700;
+}
+header nav{
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+}
+header nav a{
+  margin: 6px;
+}

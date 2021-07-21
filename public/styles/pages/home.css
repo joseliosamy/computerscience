@@ -1,0 +1,34 @@
+.landing{
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.landing .banner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.landing .banner video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.landing .apresentation{
+  width: 90%;
+  position: relative;
+  z-index: 1;
+}
+.landing .apresentation h1{
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+}
+.landing .apresentation h1 span{
+  color: rgb(var(--schema-dark-txt-span));
+}

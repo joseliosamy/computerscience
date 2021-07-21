@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,700&display=swap');
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+:root{
+  --schema-dark-bg: 31,35,44;
+  --schema-dark-txt: 205, 218, 226;
+  --schema-dark-txt-span: 229,153,157;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: rgb(var(--schema-dark-txt));
+}
+body{
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(var(--schema-dark-bg));
+  font-family: 'Inter', sans-serif;
+  color: rgb(172, 194, 210);
+}
+#container{
+  width: inherit;
+  min-height: calc(100vh - 70px);
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background: linear-gradient(50deg, rgba(191, 214, 228, 0.1), rgb(205, 218, 226, 0.3), rgb(191, 214, 228, 0.1));
+  background-size: 300% 200%;
+  transition: 400ms;
+}
+.button:hover{
+  background-size: 100% 200%;
+}
