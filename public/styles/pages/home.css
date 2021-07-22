@@ -1,34 +1,36 @@
 .landing{
   width: 100%;
-  height: calc(100vh - 70px);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  height: 500px;
 }
 .landing .banner{
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
 }
 .landing .banner video{
   width: 100%;
-  height: 100%;
+  height: 560px;
   object-fit: cover;
 }
 .landing .apresentation{
-  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
-  z-index: 1;
+
+  background: linear-gradient(0deg, var(--schema-dark-bg) 4%, #ffffff00 65%);
 }
 .landing .apresentation h1{
-  width: 50%;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 5.5rem;
 }
 .landing .apresentation h1 span{
-  color: rgb(var(--schema-dark-txt-span));
+  color: var(--schema-dark-txt-span);
 }

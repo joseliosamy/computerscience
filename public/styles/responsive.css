@@ -1,0 +1,66 @@
+@media(max-width: 900px){
+  header .header_wrapper nav a{
+    font-size: .8rem;
+  }
+}
+@media(max-width: 700px){
+  header .header_wrapper{
+    justify-content: center;  
+  }
+  
+  header .header_wrapper nav{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    top: -600px;
+    font-size: .8rem;
+    background-color: var(--schema-dark-header);
+    backdrop-filter: blur(5px);
+    transition: top 700ms ease-in-out;
+  }
+  header .header_wrapper nav a{
+    flex: 1;
+    height: 100%;
+    font-size: 1rem;
+  }
+  header .header_wrapper nav a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--schema-dark-header-nav-on);
+    transition: width 200ms;
+  }
+  header .header_wrapper nav a:hover::after {
+    width: 100%;
+  }
+  header .header_wrapper .menu_hamburguer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 6px;
+  }
+
+  .landing .apresentation h1{
+    font-size: 4.5rem;
+  }
+  .landing .apresentation .button{
+    width: 180px;
+    height: 55px;
+  }
+}
+@media(max-width: 460px){
+  .landing .apresentation h1{
+    font-size: 4.5rem;
+  }
+}
+@media(max-width: 360px){
+  .landing .apresentation h1{
+    font-size: 3.5rem;
+  }
+}

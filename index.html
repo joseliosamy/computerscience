@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./public/styles/global.css">
   <link rel="stylesheet" href="./public/styles/components/header.css">
   <link rel="stylesheet" href="./public/styles/pages/home.css">
+  <link rel="stylesheet" href="./public/styles/responsive.css">
 
   <!-- Title -->
   <title>Computer Science</title>
@@ -18,13 +19,20 @@
 <body>
   <div id="container">
     <header>
-      <a href="#">Computer <span>Science</span></a>
-      <nav>
-        <a href="#">Início</a>
-        <a href="#">Instituicional</a>
-        <a href="#">Descrição</a>
-        <a href="#">Fique por dentro</a>
-      </nav><!-- Nav -->
+      <div class="header_wrapper">
+        <nav>
+          <a href="#">Início</a>
+          <a href="#">Instituicional</a>
+          <a href="#">Descrição</a>
+          <a href="#">Fique por dentro</a>
+        </nav><!-- Nav -->
+
+        <a href="#">Computer <span>Science</span></a>
+
+        <div class="menu_hamburguer">
+          <svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
+        </div>
+      </div>
     </header><!-- Header -->
     
     <div class="landing">
@@ -37,5 +45,7 @@
       </div>
     </div><!-- Landing -->
   </div><!-- Container -->
+  <script src="./public/scripts/nav-selected.js"></script>
+  <script src="./public/scripts/menu-mobile.js"></script>
 </body>
 </html>

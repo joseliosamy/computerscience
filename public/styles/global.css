@@ -6,9 +6,11 @@ font-family: 'Inter', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 
 :root{
-  --schema-dark-bg: 31,35,44;
-  --schema-dark-txt: 205, 218, 226;
-  --schema-dark-txt-span: 229,153,157;
+  --schema-dark-bg: #1c1c1e;
+  --schema-dark-header: #000000c5;
+  --schema-dark-header-nav-on: #ff3831;
+  --schema-dark-txt: #fff;
+  --schema-dark-txt-span: #ff3831;
 }
 *{
   padding: 0;
@@ -17,18 +19,18 @@ font-family: 'Montserrat', sans-serif; */
 }
 a{
   text-decoration: none;
-  color: rgb(var(--schema-dark-txt));
+  color: var(--schema-dark-txt);
 }
 body{
   width: 100%;
-  min-height: 100%;
-  background-color: rgb(var(--schema-dark-bg));
+  min-height: 100vh;
+  background-color: var(--schema-dark-bg);
   font-family: 'Inter', sans-serif;
-  color: rgb(172, 194, 210);
+  color: var(--schema-dark-txt);
+  position: relative;
 }
 #container{
   width: inherit;
-  min-height: calc(100vh - 70px);
 }
 .button{
   display: flex;

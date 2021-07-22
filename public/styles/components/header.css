@@ -1,23 +1,55 @@
 header{
-  width: 95%;
-  height: 70px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--schema-dark-header);
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+header .header_wrapper{
+  width: 85%;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Montserrat', sans-serif;
 }
-header > a{
-  font-size: 1.3rem;
-}
-header > a span{
-  font-weight: 700;
-}
-header nav{
+header .header_wrapper nav{
   display: flex;
+  height: 100%;
   font-weight: 400;
   align-items: center;
 }
-header nav a{
-  margin: 6px;
+header .header_wrapper nav a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6px;
+  position: relative;
+}
+header .header_wrapper nav a::before{
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  background-color: var(--schema-dark-header-nav-on);
+  transition: width 200ms;
+}
+header .header_wrapper nav a:hover::before {
+  width: 100%;
+}
+header .header_wrapper > a{
+  font-size: 1.3rem;
+}
+header .header_wrapper > a span{
+  font-weight: 700;
+}
+header .header_wrapper .menu_hamburguer{
+  display: none;
 }
