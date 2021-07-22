@@ -31,6 +31,7 @@ header .header_wrapper nav a{
   justify-content: center;
   margin: 0 6px;
   position: relative;
+  text-align: center;
 }
 header .header_wrapper nav a::before{
   content: "";

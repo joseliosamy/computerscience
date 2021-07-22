@@ -22,7 +22,7 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-
+  backdrop-filter: blur(4px) saturate(130%);
   background: linear-gradient(0deg, var(--schema-dark-bg) 4%, #ffffff00 65%);
 }
 .landing .apresentation h1{
@@ -34,3 +34,5 @@
 .landing .apresentation h1 span{
   color: var(--schema-dark-txt-span);
 }
+
+
